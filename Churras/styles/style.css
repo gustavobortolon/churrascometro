@@ -1,0 +1,35 @@
+body{
+    background-image: url(/styles/istockphoto-1332332633-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background-image: url(/styles/churrasco.png);
+    background-size: cover;
+    background-color: hsla(200, 3%, 17%, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin:200px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input:hover{
+    background-color: orange;
+    color: black;
+}
+
+
+button:hover{
+    background-color: red;
+    color: white;
+}
